@@ -43,6 +43,8 @@ namespace VehicleAPI
    .AddScheme<AuthenticationSchemeOptions, BasicAuthentication>("BasicAuthentication", null); //Custom Added
         }
 
+
+
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
